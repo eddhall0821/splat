@@ -720,8 +720,9 @@ async function main() {
   const url = new URL(
     // "nike.splat",
     // location.href,
-    params.get("url") || "nike.splat",
-    "https://huggingface.co/cakewalk/splat-data/resolve/main/"
+    // params.get("url") || "nike.splat",
+    "https://firebasestorage.googleapis.com/v0/b/metowndb.appspot.com/o/Garments_%2F231031greemhood%2Fwhite%2Ffree%2Fpose1%2F231031greamhood.splat?alt=media&token=dedb3ae3-19c5-4e16-9943-904931780e5a"
+    // "pc.ply"
   );
   const req = await fetch(url, {
     mode: "cors", // no-cors, *cors, same-origin
